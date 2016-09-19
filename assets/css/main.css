@@ -55,9 +55,22 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-
+.motivation:hover:after
+{
+    content: url(images/graballweb_motivation.gif);  
+    display: block;
+}
+.motivation:hover {
+    position: relative;
+}
+.motivation:hover:after {
+    content: url(images/graballweb_motivation.gif); /* no need for qoutes */
+    display: block;
+    position: absolute;
+    left: 30px; /* change this value to one that suits you */
+    top: -500%; /* change this value to one that suits you */
+}
 /* Containers */
-
 	.container {
 		margin-left: auto;
 		margin-right: auto;
