@@ -2850,7 +2850,7 @@
 				padding-bottom: 1px;
 			}
 
-			#navButton {
+			/*#navButton {
 				-moz-backface-visibility: hidden;
 				-webkit-backface-visibility: hidden;
 				-ms-backface-visibility: hidden;
@@ -2912,7 +2912,7 @@
 						position: absolute;
 						top: 10px;
 						width: 60px;
-					}
+					}*/
 
 			#navPanel {
 				-moz-backface-visibility: hidden;
