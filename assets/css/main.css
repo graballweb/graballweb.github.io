@@ -1825,7 +1825,9 @@
 			}
 
 /* Icon */
-
+	.fa-inbox:hover{
+		color:coral;
+	}
 	.icon {
 		text-decoration: none;
 		position: relative;
